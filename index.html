@@ -3,61 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IEndorse Campaign Preview</title>
-
-    <!-- Open Graph Meta Tags (For Facebook, Instagram, LinkedIn, WhatsApp) -->
-    <meta property="og:title" content="Join the IEndorse Campaign – [Campaign Name]">
-    <meta property="og:description" content="Support this campaign and earn rewards! Click to learn more.">
+    <title>IEndorse Campaign Share</title>
+    
+    <!-- Recommended Image Sizes for Social Platforms -->
+    <!-- Facebook: 1200 x 630 pixels -->
+    <!-- Twitter: 1200 x 675 pixels -->
+    <!-- LinkedIn: 1200 x 627 pixels -->
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Join the IEndorse Campaign">
+    <meta property="og:description" content="Exciting campaign opportunity - earn rewards and make an impact!">
     <meta property="og:image" content="https://res.cloudinary.com/dktcerlln/image/upload/v1741961933/ylekdvs52bbjmxg5vyk4.jpg">
+    <meta property="og:image:secure_url" content="https://res.cloudinary.com/dktcerlln/image/upload/v1741961933/ylekdvs52bbjmxg5vyk4.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:url" content="https://iendorse.vercel.app/ViewCampaign/168">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="IEndorse">
-    <meta property="og:locale" content="en_US">
-
-    <!-- Twitter/X Meta Tags -->
+    
+    <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Join the IEndorse Campaign – [Campaign Name]">
-    <meta name="twitter:description" content="Support this campaign and earn rewards! Click to learn more.">
+    <meta name="twitter:title" content="Join the IEndorse Campaign">
+    <meta name="twitter:description" content="Exciting campaign opportunity - earn rewards and make an impact!">
     <meta name="twitter:image" content="https://res.cloudinary.com/dktcerlln/image/upload/v1741961933/ylekdvs52bbjmxg5vyk4.jpg">
-    <meta name="twitter:site" content="@IEndorse">
+    
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            max-width: 600px; 
+            margin: 0 auto; 
+            padding: 20px; 
+        }
+        img { 
+            max-width: 100%; 
+            height: auto; 
+        }
+        .share-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .share-button {
+            padding: 10px 15px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .facebook { background-color: #3b5998; }
+        .twitter { background-color: #1DA1F2; }
+        .linkedin { background-color: #0077B5; }
+        .whatsapp { background-color: #25D366; }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the IEndorse Campaign Page</h1>
-    <p>This page has meta tags set for social media sharing, and you can test how it looks when shared on Facebook, Instagram, LinkedIn, Twitter, and WhatsApp.</p>
-    <a href="https://iendorse.vercel.app/ViewCampaign/168" target="_blank">Click to view the campaign page</a>
-
-    <h2>Share this Campaign</h2>
-    <div>
-        <!-- Facebook Share Button -->
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://iendorse.vercel.app/ViewCampaign/168" target="_blank">
-            <button style="background-color:#3b5998; color:white; padding:10px 20px; border-radius:5px; font-size:16px;">Share on Facebook</button>
+    <h1>IEndorse Campaign Share</h1>
+    
+    <img src="https://res.cloudinary.com/dktcerlln/image/upload/v1741961933/ylekdvs52bbjmxg5vyk4.jpg" 
+         alt="Campaign Image" 
+         width="1200" 
+         height="630">
+    
+    <p>Click the buttons below to share this campaign!</p>
+    
+    <div class="share-buttons">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://iendorse.vercel.app/ViewCampaign/168" 
+           target="_blank" 
+           class="share-button facebook">
+            Share on Facebook
         </a>
-
-        <!-- Twitter Share Button -->
-        <a href="https://twitter.com/intent/tweet?url=https://iendorse.vercel.app/ViewCampaign/168&text=Join%20the%20IEndorse%20Campaign" target="_blank">
-            <button style="background-color:#1DA1F2; color:white; padding:10px 20px; border-radius:5px; font-size:16px;">Share on Twitter</button>
+        
+        <a href="https://twitter.com/intent/tweet?url=https://iendorse.vercel.app/ViewCampaign/168&text=Join%20the%20IEndorse%20Campaign" 
+           target="_blank" 
+           class="share-button twitter">
+            Share on Twitter
         </a>
-
-        <!-- LinkedIn Share Button -->
-        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://iendorse.vercel.app/ViewCampaign/168&title=Join%20the%20IEndorse%20Campaign&summary=Support%20this%20campaign%20and%20earn%20rewards!%20Click%20to%20learn%20more." target="_blank">
-            <button style="background-color:#0077B5; color:white; padding:10px 20px; border-radius:5px; font-size:16px;">Share on LinkedIn</button>
+        
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://iendorse.vercel.app/ViewCampaign/168&title=Join%20the%20IEndorse%20Campaign" 
+           target="_blank" 
+           class="share-button linkedin">
+            Share on LinkedIn
         </a>
-
-        <!-- WhatsApp Share Button -->
-        <a href="https://wa.me/?text=https://iendorse.vercel.app/ViewCampaign/168%20Join%20the%20IEndorse%20Campaign!" target="_blank">
-            <button style="background-color:#25D366; color:white; padding:10px 20px; border-radius:5px; font-size:16px;">Share on WhatsApp</button>
-        </a>
-
-        <!-- Instagram (Only for Copy Link) -->
-        <a href="https://www.instagram.com/" target="_blank">
-            <button style="background-color:#C13584; color:white; padding:10px 20px; border-radius:5px; font-size:16px;">Share on Instagram</button>
-        </a>
-
-        <!-- TikTok (Only for Copy Link) -->
-        <a href="https://www.tiktok.com/" target="_blank">
-            <button style="background-color:#000000; color:white; padding:10px 20px; border-radius:5px; font-size:16px;">Share on TikTok</button>
+        
+        <a href="https://api.whatsapp.com/send?text=Join%20the%20IEndorse%20Campaign:%20https://iendorse.vercel.app/ViewCampaign/168" 
+           target="_blank" 
+           class="share-button whatsapp">
+            Share on WhatsApp
         </a>
     </div>
-
 </body>
 </html>
